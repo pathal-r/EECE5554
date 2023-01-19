@@ -1,0 +1,2 @@
+I have installed Ubuntu
+I have installed git
