@@ -1,0 +1,7 @@
+<launch> 
+        <arg name ="port"/>
+        <arg name ="baudrate"/>
+        <node name="launcher" pkg="gnss_driver" type="driver.py" output="screen" >
+         <param name="port" value="$(arg port)"/>
+        </node>
+</launch>
